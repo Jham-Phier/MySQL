@@ -1,0 +1,28 @@
+Um Banco de Dados é a camada externa da cebola, ele abriga as camadas mais inteenas que são as tabelas, columas, linhas, células e os dados...
+
+
+-- Criar banco
+    CREATE DATABASE nomedobando;
+
+-- Remover banco
+    DROP DATABASE nomedobando;
+
+-- Mostrar bancos
+    SHOW DATABASES;
+
+-- Usar banco
+    USE nomedobando;
+
+-- Criar tabela
+    CREATE TABLE nomedatabela(
+        nomedacoluna tipodacoluna(limite)
+    );
+
+-- Remover tabela 
+    DROP TABLE nomedatabela;
+
+
+-- Tipos de dados:
+    texto: VARCHAR(x)
+    número: INT(x)
+    data: TIMESTAMP / DATE 
